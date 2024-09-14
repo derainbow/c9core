@@ -94,6 +94,7 @@ If you want to contribute to the Cloud9 SDK and/or open source plugins please go
 
 Ubuntu 20.4 
 
+
 sudo apt-get install python -y && sudo apt-get install screen -y
 
 2
@@ -112,7 +113,6 @@ cd c9sdk
 
 6
 scripts/install-sdk.sh
-
 
 7
 screen
