@@ -92,4 +92,30 @@ To protect the interests of the Cloud9 contributors and users we require contrib
 
 If you want to contribute to the Cloud9 SDK and/or open source plugins please go to the online form, fill it out and submit it.
 
+Ubuntu 20.4 
+
+sudo apt-get install python -y && sudo apt-get install screen -y
+
+2
+sudo apt-get install nodejs
+
+3
+sudo apt-get install libapache2-mod-php7.4 php7.4 php7.4-common
+
+sudo apt-get install -y php7.4-cli php7.4-json php7.4-common php7.4-mysql php7.4-zip php7.4-gd php7.4-mbstring php7.4-curl php7.4-xml php7.4-bcmath
+
+4
+git clone https://github.com/c9/core.git c9sdk
+
+5
+cd c9sdk
+
+6
+scripts/install-sdk.sh
+
+
+7
+screen
+nodejs server.js -p 8080 -l 0.0.0.0 -a user:pw
+
 Happy coding, Cloud9
